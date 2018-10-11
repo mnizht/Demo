@@ -37,7 +37,8 @@ public class User implements Serializable {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "username:"+username+",password:"+password;
+		//return "username:"+username+",password:"+password;
+		return "username:"+this.getUsername()+",password:"+this.getPassword();
 	}
 	
 }
