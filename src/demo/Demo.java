@@ -30,7 +30,10 @@ public class Demo {
 		// treeSet();
 		// mathTest();
 		//TestStringBuffer3();
-		copyFile2();
+		//copyFile2();
+		int num = 2<<3;
+		System.out.println(num);
+		
 	}
 
 	/**
